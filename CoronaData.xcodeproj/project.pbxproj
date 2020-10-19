@@ -11,8 +11,9 @@
 		F2E73189253990D600E236F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E73188253990D600E236F5 /* ContentView.swift */; };
 		F2E7318B253990DC00E236F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E7318A253990DC00E236F5 /* Assets.xcassets */; };
 		F2E7318E253990DC00E236F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E7318D253990DC00E236F5 /* Preview Assets.xcassets */; };
-		F2E73199253990DD00E236F5 /* CoronaDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E73198253990DD00E236F5 /* CoronaDataTests.swift */; };
 		F2E731A4253990DD00E236F5 /* CoronaDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E731A3253990DD00E236F5 /* CoronaDataUITests.swift */; };
+		F2E731B52539913400E236F5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E731B42539913400E236F5 /* APIClient.swift */; };
+		F2E731BA2539923900E236F5 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E731B92539923900E236F5 /* APIClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +41,12 @@
 		F2E7318D253990DC00E236F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2E7318F253990DC00E236F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2E73194253990DD00E236F5 /* CoronaDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoronaDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2E73198253990DD00E236F5 /* CoronaDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaDataTests.swift; sourceTree = "<group>"; };
 		F2E7319A253990DD00E236F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2E7319F253990DD00E236F5 /* CoronaDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoronaDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E731A3253990DD00E236F5 /* CoronaDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaDataUITests.swift; sourceTree = "<group>"; };
 		F2E731A5253990DD00E236F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E731B42539913400E236F5 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		F2E731B92539923900E236F5 /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				F2E73186253990D600E236F5 /* CoronaDataApp.swift */,
 				F2E73188253990D600E236F5 /* ContentView.swift */,
+				F2E731B42539913400E236F5 /* APIClient.swift */,
 				F2E7318A253990DC00E236F5 /* Assets.xcassets */,
 				F2E7318F253990DC00E236F5 /* Info.plist */,
 				F2E7318C253990DC00E236F5 /* Preview Content */,
@@ -115,7 +118,7 @@
 		F2E73197253990DD00E236F5 /* CoronaDataTests */ = {
 			isa = PBXGroup;
 			children = (
-				F2E73198253990DD00E236F5 /* CoronaDataTests.swift */,
+				F2E731B92539923900E236F5 /* APIClientTests.swift */,
 				F2E7319A253990DD00E236F5 /* Info.plist */,
 			);
 			path = CoronaDataTests;
@@ -261,6 +264,7 @@
 			files = (
 				F2E73189253990D600E236F5 /* ContentView.swift in Sources */,
 				F2E73187253990D600E236F5 /* CoronaDataApp.swift in Sources */,
+				F2E731B52539913400E236F5 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2E73199253990DD00E236F5 /* CoronaDataTests.swift in Sources */,
+				F2E731BA2539923900E236F5 /* APIClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
